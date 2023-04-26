@@ -162,10 +162,9 @@ footer{
     display: flex;
     align-items: center;
     border-bottom: 20px;
-    justify-content: ;
 }
 
-@media (max-width: 474px) {
+@media(max-width: 474px) {
     .container-header a{
         background-color: #fbfbfb;
         padding: 15px;
