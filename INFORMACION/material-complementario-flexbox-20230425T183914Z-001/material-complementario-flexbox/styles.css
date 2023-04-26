@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+main {
+    margin: 40px;
+}
+
+img {
+    width: 100px;
+    margin: 5px;
+}
+
+h1 {
+    text-align: center;
+}
+
+h2 {
+    background-color: #dce8f3;
+}
+
+h3 {
+    margin: 0;
+}
+
+div {
+    display: flex;
+    flex-direction: row;
+    border: 2px solid #000;
+    border-radius: 4px;
+    margin: 5px 0 10px 0;
+}
+
+/* justify content */
+.flex-start {
+    justify-content: flex-start;
+}
+
+.flex-end {
+    justify-content: flex-end;
+}
+
+.center {
+    justify-content: center;
+}
+
+.space-between {
+    justify-content: space-between;
+}
+
+.space-around {
+    justify-content: space-around;
+}
+
+.space-evenly {
+    justify-content: space-evenly;
+}
+
+/* align -items */
+.ejemplos-align div {
+    height: 200px;
+}
+
+.align-flex-start {
+    align-items: flex-start;
+}
+
+.align-flex-end {
+    align-items: flex-end;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.stretch{
+    align-items: stretch;
+}
+
+/* Sin importar el tamaño del elemento,
+baseline los alinea por su línea de base */
+.baseline {
+    align-items: baseline;
+}
+
+img.big {
+    width: 150px;
+}
+
+img.small {
+    width: 70px;
+}
+
+/* Ejemplos flex-wrap */
+.ejemplos-wrap div {
+    width: 500px;
+    margin: auto;
+}
+
+.wrap {
+    flex-wrap: wrap;
+}
