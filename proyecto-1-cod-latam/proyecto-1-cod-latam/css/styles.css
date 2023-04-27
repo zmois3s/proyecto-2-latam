@@ -125,13 +125,19 @@ p{
 }
 
 section{
-    display: block;
+    height: max-content;
     align-items: center;
     justify-content: center;
-    margin: 150px 0px 60px 0px;
+    margin: 100px 0px 50px 0px;
     color: #0f0f0f;
     padding-bottom: 4%;
     background-color:rgba(175, 89, 158, 0.3);
+}
+
+h2{
+    align-items: end;
+    display: inline-block;
+    margin-top: 20px;
 }
 
 section p{
@@ -165,26 +171,20 @@ footer{
 }
 
 @media(max-width: 474px) {
-    .container-header a{
+    /* .container-header a{
         background-color: #fbfbfb;
-        padding: 15px;
+        padding: 20px;
         text-align: center;
-    }
+    } */
     .logo{
         margin-top: 10px;
         margin-left: 8px;
         height: 70px;
     }
-    section{
-        display: block;
-        align-items: center;
-        justify-content: center;
-        margin: 150px 0px 60px 0px;
-        color: #0f0f0f;
-        padding-bottom: 2%;
-    }
+
 
     section{
+        height: max-content;
         align-items: center;
         justify-content: center;
         margin: 190px 0px 90px 0px;
@@ -193,7 +193,6 @@ footer{
         background-color:rgba(175, 89, 158, 0.3);
     }
     section p{
-        text-overflow: ellipsis;
         margin-top: 10px;
         height: 50px;
     }
