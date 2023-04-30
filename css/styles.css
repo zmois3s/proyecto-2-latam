@@ -126,9 +126,8 @@ p{
 
 section{
     height: max-content;
-    height: max-content;
     display: block;
-    align-items: center;
+    /* align-items: center; */
     justify-content: center;
     margin: 100px 0px 50px 0px;
     color: #0f0f0f;
@@ -173,17 +172,12 @@ footer{
 }
 
 @media(max-width: 474px) {
-    /* .container-header a{
-        background-color: #fbfbfb;
-        padding: 20px;
-        text-align: center;
-    } */
+
     .logo{
         margin-top: 10px;
         margin-left: 8px;
         height: 70px;
     }
-
 
     section{
         height: max-content;
@@ -207,9 +201,6 @@ footer{
         width: 20%;
         margin: 20px;
     }
-    
-    
-
 }
 
 
