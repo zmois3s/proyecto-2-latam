@@ -192,16 +192,10 @@ footer{
         height: 50px;
     }
     .container-iconos{
-        flex-direction: column;
         margin-bottom: 80px;
 
     }
-    /* .container-iconos img{
-        margin-right: 20px;
-        margin-bottom: 20px;
-     
-    }
-    */
+ 
 }
 
 
