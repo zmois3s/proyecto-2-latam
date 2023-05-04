@@ -58,7 +58,6 @@ a {
 
 nav{
     display: flex;
-    align-items: center;
     margin-left: -10px;
 }
 
@@ -179,26 +178,44 @@ footer{
 
     .logo{
         margin-top: 10px;
-        margin-left: 8px;
-        margin-right: 10px;
-        height: 70px;
+        margin-left: 3px;
+        margin-right: 7px;
+        height: 60px;
     }
-
+    article{
+        flex-direction: column;
+        margin-bottom: 10%;
+     }
     section{
         height: max-content;
         align-items: center;
         justify-content: center;
-        margin: 190px 0px 90px 0px;
+        margin: 190px 0px 100px 0px;
         color: #0f0f0f;
-        padding-bottom: 10%;
+        padding-bottom: 15%;
         background-color:rgba(175, 89, 158, 0.3);
     }
     section p{
-        margin-top: 10px;
-        height: 50px;
+        margin-top: 20px;
+        height: px;
     }
 
- 
+    nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    
+    .container-header a{
+        background-color: #fbfbfb;
+        padding: 20px;
+        text-align: center;
+    }
+    
+    .container-header a:hover{
+        background-color: rgb(226, 157, 27);
+       
+    }
 }
 
 
