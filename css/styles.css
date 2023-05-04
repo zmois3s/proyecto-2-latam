@@ -116,6 +116,7 @@ p{
 
 article{
    flex-direction: column;
+   height: max-content;
 }
 
 .descarga-cv{
